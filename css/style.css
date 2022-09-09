@@ -1,0 +1,23 @@
+.hidden {
+  display: none;
+}
+
+#login-form,
+#todo-form,
+#clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
