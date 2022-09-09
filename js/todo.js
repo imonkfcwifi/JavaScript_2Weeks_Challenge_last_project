@@ -47,7 +47,7 @@ function paintTodo(newtodo) {
     list.id = newtodo.id;
     const spanding = document.createElement("span");
     const button = document.createElement("button");
-    button.innerText = "★";
+    button.innerText = "˚✧₊⁎( ˘ω˘ )⁎⁺˳✧༚";
     button.addEventListener("click", deleteToDo);
     list.appendChild(spanding);
     list.appendChild(button);

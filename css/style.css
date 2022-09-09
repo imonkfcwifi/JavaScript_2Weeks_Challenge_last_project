@@ -1,13 +1,62 @@
+@import "reset.css";
+
 .hidden {
   display: none;
 }
 
-#login-form,
-#todo-form,
+
 #clock {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 70px;
+  top: 0;
+  margin-top: 0;
+  color: white;
+  position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#login-form {
+  margin-left: 10px;
+}
+
+#anya {
+  margin-left: 10px;
+  color: white;
+}
+
+#login-form input {
+  padding: 30px 0px;
+}
+
+#todo-form input {
+  padding: 10px 160px;
+}
+
+#todo-form {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+#greeting {
+  justify-content: center;
+  color: white;
+  align-items: flex-end;
+  position: relative;
+  top: 10px;
+  margin-left: 12px;
+}
+
+input::placeholder {
+  color: black;
+  font-style: italic;
 }
 
 #quote {
@@ -15,9 +64,122 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+
+
+body {
+  background-color: rgba(17, 24, 54, 0.9);
+}
+
+#weather {
+  color: white;
+  position: absolute;
+  top: 130px;
+  left: 1400px;
+  display: flex;
+  justify-content: right;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+#todotodo {
+  display: block;
+  color: white;
+  font-family: fantasy;
+  width: 500px;
+  height: 100vh;
+  border-color: white;
+  border-style: dashed solid;
+  position: relative;
+  font-size: 35px;
+  margin-top: 10px;
+
+}
+
+#coys {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 10px;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#youtube {
+
+
+  position: absolute;
+  right: 690px;
+  top: 415px;
+  width: 560px;
+
+
+  color: white;
+  font-family: fantasy;
+
+  height: 100vh;
+  border-color: white;
+  border-style: dashed solid;
+  margin: auto;
+}
+
+#youtube_comment {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#bgr {
+
+  position: absolute;
+  right: 40px;
+  top: 415px;
+  width: 560px;
+
+
+  color: white;
+  font-family: fantasy;
+
+  height: 100vh;
+  border-color: white;
+  border-style: dashed solid;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+.video {
+  justify-content: center;
+}
+
+#bgr_comment {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 
 img {
   display: block;
-  margin: auto;
+  margin: 0px auto;
+  width: 80%;
+  height: 80%;
+}
+
+#bgr_formation {
+  text-align: center;
+}
+
+#bgr_information {
+  font-size: 35px;
+}
+
+.clickme {
+  font-size: 20px;
 }

@@ -1,45 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Momentum App</title>
-  </head>
-  <body>
-    <h2 id="clock">00:00</h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>ComeOnYouSpurs!-ToDoList</title>
+  <link rel="icon" type="image/png" sizes="16x16"
+    href="https://ssl.gstatic.com/onebox/media/sports/logos/k3Q_mKE98Dnohrcea0JFgQ_96x96.png">
+</head>
+
+<body>
+  <h1 id="coys"><i class="fa-regular fa-futbol"></i>&nbsp; COME ON YOU SPURS!&nbsp;<i class="fa-regular fa-futbol"></i>
+  </h1>
+  <h2 id="clock"></h2>
+
+  <div>
+    <h3 id="anya">SPURS는 올해 우승 할 수 있을까요?.. &nbsp;<i class="fa-regular fa-futbol"></i></h3>
     <form class="hidden" id="login-form">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?"
-      />
+      <input required maxlength="15" type="text" placeholder="ComeOnYouSpurs!" />
       <input type="submit" value="Log In" />
     </form>
     <form id="todo-form">
-      <input type="text" placeholder="write a to do and press enter" required/>
+      <input type="text" placeholder="before wataching Football" required />
     </form>
-    <ul id="todo-list">
-
-    </ul>
     <h1 class="hidden" id="greeting"></h1>
-    <div id="quote">
-    <span></span>
-    <span></span>
-    </div>
-    <div id="weather">
-      <span></span>
-      <span></span>
-    </div>
-    <script src="js/greetings.js"></script>
-    <script src="js/clock.js"></script>
-    <script src="js/quotes.js"></script>
-    <script src="js/backgrounds.js"></script>
-    <script src="js/todo.js"></script>
-    <script src="js/weather.js"></script>
-    </body>
-  </html>
+    <div id="todotodo">
+      <ul id="todo-list">
 
-  <!-- 위에서 아래로 읽기때문에 clock을 맨 위로 올리고싶다면 맨 위로, 아래로 놓고싶다면 아래로 놓으면된다. 그러면 h1 h2이게 무슨 소용이지..
+      </ul>
+    </div>
+    <div id="youtube">
+      <h1 id="youtube_comment">Who Is The Key Player?</h1>
+      <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/yJVYTOqjavc"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe></div>
+      <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/7UpUgcHywgE"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe></div>
+      <div class="video"><iframe width="560" height="255" src="https://www.youtube.com/embed/TGypnOCfRO8"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe></div>
+    </div>
+    <div id="bgr">
+      <h1 id="bgr_comment">The Spurs Players</h1>
+      <img id="bgr_formation"
+        src="https://i2-prod.football.london/incoming/article23150170.ece/ALTERNATES/s615b/0_Screen-Shot-2022-02-18-at-170226.png"
+        alt="" />
+      <h2>
+        토트넘 홋스퍼 경기일정 바로가기</h2>
+      <a class="clickme"
+        href="https://www.google.com/search?q=%ED%86%A0%ED%8A%B8%EB%84%98&oq=%ED%86%A0%ED%8A%B8%EB%84%98&aqs=edge.0.69i59j0i131i433i512j0i433i512j0i131i433i512l3j69i61l3.1380j0j4&sourceid=chrome&ie=UTF-8#sie=t;/m/0hvjr;2;/m/02_tc;mt;fp;1;;;">CLICK
+        ME!</a>
+
+    </div>
+
+  </div>
+
+
+  <div id="quote">
+    <span></span>
+    <span></span>
+  </div>
+  <div id="weather">
+    <span></span>
+    <span></span>
+  </div>
+
+  <script src="js/greetings.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/backgrounds.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="https://kit.fontawesome.com/31ea20ca01.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- 위에서 아래로 읽기때문에 clock을 맨 위로 올리고싶다면 맨 위로, 아래로 놓고싶다면 아래로 놓으면된다. 그러면 h1 h2이게 무슨 소용이지..
   아닌가 내가 너무 아직 아무것도 모르는건가 아 이거 요소로 보면 다 보이네 조심해야겠다. ctrl + / 하면 주석처리가 된다. 모든곳에 쓰일수있다. -->

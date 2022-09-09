@@ -13,7 +13,7 @@ function onLoginSubmit(event) {
 }
 
 function greetings(username) {
-  greeting.innerText = `Hello ${username}`;
+  greeting.innerText = `COYS! 오늘도 반갑습니다. ${username} !`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
