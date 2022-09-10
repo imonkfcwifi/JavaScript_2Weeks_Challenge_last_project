@@ -68,6 +68,7 @@ input::placeholder {
   font-size: 19px;
   font-weight: 400;
   margin-top: 15px;
+  border-bottom: white;
 }
 
 
@@ -87,15 +88,21 @@ body {
   font-size: 40px;
 }
 
+.main_form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+
+}
+
+
 #todotodo {
-  display: block;
   color: white;
   font-family: fantasy;
   width: 500px;
   height: 100vh;
   border-color: white;
   border-style: dashed solid;
-  position: relative;
   font-size: 35px;
   margin-top: 10px;
 
@@ -112,20 +119,12 @@ body {
 
 #youtube {
 
-
-  position: absolute;
-  right: 690px;
-  top: 415px;
   width: 560px;
-
-
   color: white;
   font-family: fantasy;
-
   height: 100vh;
   border-color: white;
   border-style: dashed solid;
-  margin: auto;
 }
 
 #youtube_comment {
@@ -133,13 +132,21 @@ body {
   justify-content: center;
 }
 
+#bgr_formation {
+  text-align: center;
+}
+
+.clickme {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 
 
 #bgr {
 
-  position: absolute;
-  right: 40px;
-  top: 415px;
   width: 560px;
 
 
@@ -149,7 +156,6 @@ body {
   height: 100vh;
   border-color: white;
   border-style: dashed solid;
-  margin: auto;
   overflow: hidden;
 
 }
@@ -168,18 +174,20 @@ body {
 img {
   display: block;
   margin: 0px auto;
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
+
+  border-radius: 50%;
+
 }
 
-#bgr_formation {
-  text-align: center;
+#baro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#bgr_information {
-  font-size: 35px;
-}
-
-.clickme {
-  font-size: 20px;
+a:link {
+  text-decoration: none;
+  color: white;
 }
